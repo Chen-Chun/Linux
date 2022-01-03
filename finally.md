@@ -27,12 +27,12 @@
 ## 4. www php virtual host (in w8.md)
 ## 5. telnet(in w13.md)
 關機後clone新創的vmware  
-## ssh scp
-## ssh no password login
+## ssh scp(in w4.md)
+## ssh no password (in w4.md)
+## nfs(in w10.md)
 
 
 ## vsftp
-## nfs
 ## haproxy
 
 `yum install -y epel-release`  
@@ -44,18 +44,6 @@
 # 用到兩台虛擬機
 
 ## DHCP
-
-    at server side:
-    yum install nfs-utils
-    systemctl start rpcbind
-    systemctl start nfs-server
-    gedit /etc/exports
-
-    at client side:
-    yum install nfs-utils
-    systemctl start rpcbind
-    showmount -e "nfs servers's ip"
-    mount -t nfs "nfs server's ip":/mynfs  /mydata
 
 ## NAT
 
