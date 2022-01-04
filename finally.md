@@ -11,7 +11,7 @@
         # systemctl status sshd  
         # systemctl stop firewalld
         # systemctl status firewalld
-        # getenforce
+        # getenfo
 
 ` # gedit /etc/selinux/config `  
 修改裡面的 SELINUX = disabled  
@@ -39,10 +39,10 @@
 ## 10. haproxy (in w12.md) 用到3台虛擬機
 
 # 有時間選下面幾個做
-## DHCP  
+## DHCP  (in w15.md 要改一下)
 ## samba (in w11.md) 出錯率太高 倒數第三個做 但是如果有時間先做這個  
 ## NAT 要重新設定 會出現連線問題 所以倒數第二個做  
-## From NetworkManager to network (in w10.md) 需要確定這台虛擬機不會再用到 再去做設定 所以最後做  
+## From NetworkManager to network (in w10.md 要改一下) 需要確定這台虛擬機不會再用到 再去做設定 所以最後做  
 
 
 
