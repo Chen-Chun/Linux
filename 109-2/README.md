@@ -1,6 +1,7 @@
-# CentOS 7.3 課堂祕技
+# Linux作業系統實務
+
 109年第2學期 
-* 使用軟體 : VirtualBox
+* 使用軟體 : VirtualBox、CentOS 7.3
 
 ## Week1
 * 前言
